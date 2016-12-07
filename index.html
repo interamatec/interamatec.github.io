@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-olá
+	<script>
+var lang = (navigator.language || navigator.userLanguage).toLowerCase();
+if (lang.startsWith('pt')) {
+	location = window.location.origin + '/pt/';
+} else {
+	location = window.location.origin + '/en/';
+}
+</script>
 </body>
+
 </html>
